@@ -1,15 +1,21 @@
-# Virtual Environment
+# Virtual Environments
 .venv/
+venv/
 
-# Python
+# Python Cache
 __pycache__/
 *.pyc
+*.pyo
 
-# Environment
+# Environment Variables
 .env
+.env.*
+
+# Runtime Data
+data/
 
 # Logs
 logs/
 
-# VS Code
-.vscode/settings.json
+# IDE Settings
+.vscode/
